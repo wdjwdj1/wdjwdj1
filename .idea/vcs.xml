@@ -2,5 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PycharmProjects/KLT-Feature-Tracking原" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PycharmProjects/KLT改" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PycharmProjects/eulerian-remote-heartrate-detection" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PycharmProjects/欧拉放大原版" vcs="Git" />
   </component>
 </project>
