@@ -1,0 +1,19 @@
+<IndexPage>:
+    canvas.before:
+        Color:
+            rgb:(1, 1, 1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: './44.png'
+
+
+    Button:
+        text: ''
+        font_size : 50
+        background_color :(0, 0, 0, 0)
+        color :(0, 1, 1, 1)
+        size :(300, 230)
+        size_hint : (0.3, 0.3)
+        pos_hint : {'x': .365 , 'y': .385}
+        on_press: root.page_go()
