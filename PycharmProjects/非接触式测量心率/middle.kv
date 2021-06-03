@@ -1,0 +1,24 @@
+<MiddlePage>:
+    orientation: 'vertical'
+
+    BoxLayout:
+        orientation: 'horizontal'
+        AsyncImage:
+            source: './heart.GIF'
+
+        Label:
+            text: root.heartrate
+            font_size : 16
+
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint : 1,0.2
+        Button:
+            text:'calculate heartrate'
+            markup: True
+            on_press:root.show()
+
+        Button:
+            text:'restart'
+            markup: True
+            on_press:root.page_go()
